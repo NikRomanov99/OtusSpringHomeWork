@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>OtusSpringHomeWork</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.6.1</version>
+        <relativePath/>
+    </parent>
+
+    <modules>
+        <module>HW1-IoC</module>
+        <module>hw3-boot</module>
+        <module>hw4-shell</module>
+        <module>HW05-JDBC</module>
+        <module>HW06-ORM</module>
+        <module>HW07-DATA</module>
+        <module>HW08-MONGO</module>
+        <module>HW09-MVC</module>
+        <module>HW10-REST</module>
+        <module>HW12-SecurityFormBased</module>
+        <module>HW13-ACL</module>
+        <module>HW14-BATCH</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+</project>
